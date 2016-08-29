@@ -636,6 +636,6 @@ on property:ro.debuggable=1
     chmod 0773 /data/misc/trace
     start console
 
-service flash_recovery /system/bin/install-recovery.sh
-    class main
-    oneshot
+#service flash_recovery /system/bin/install-recovery.sh
+#    class main
+#    oneshot
